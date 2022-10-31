@@ -19,6 +19,14 @@ int main() {
 
     res = a + b;
 
+  } else if (x == 2) {
+    cout << "\n=== SUBSTRACTION ===\n First number : ";
+    cin >> a;
+    cout << " Second number : ";
+    cin >> b;
+
+    res = a - b;
+  
   } else {
     cout << "\noops currently we didn't have that option :((\n ";
   }
